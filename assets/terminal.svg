@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="490" viewBox="0 0 900 490" role="img" aria-label="Terminal: neofetch for Victor Geoffrey (Delight), full-stack developer">
+  <style>
+    text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; font-size: 14px; fill: #c9d1d9; white-space: pre; }
+    .g  { fill: #39d353; }
+    .gb { fill: #39d353; font-weight: 700; }
+    .k  { fill: #39d353; font-weight: 700; }
+    .d  { fill: #6e7681; }
+    .b  { fill: #58a6ff; }
+    .y  { fill: #e3b341; }
+    .t  { fill: #8b949e; font-size: 13px; }
+    .r  { opacity: 0; animation: show .35s ease-out forwards; }
+    .cur { animation: blink 1s step-end infinite; }
+    @keyframes show  { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <defs>
+    <clipPath id="c1"><rect x="0" y="48" height="26" width="0"><animate attributeName="width" from="0" to="900" begin="0.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="0" y="316" height="26" width="0"><animate attributeName="width" from="0" to="900" begin="2.9s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="0" y="384" height="26" width="0"><animate attributeName="width" from="0" to="900" begin="4.3s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#39d353" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#39d353" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="898" height="488" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="898" height="488" rx="12" fill="url(#glow)"/>
+  <path d="M1 13a12 12 0 0 1 12-12h874a12 12 0 0 1 12 12v23H1z" fill="#161b22"/>
+  <line x1="1" y1="36" x2="899" y2="36" stroke="#30363d"/>
+  <circle cx="22" cy="18.5" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="18.5" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="18.5" r="6" fill="#28c840"/>
+  <text x="450" y="23" text-anchor="middle" class="t">delight@github: ~ — bash</text>
+
+  <!-- $ neofetch -->
+  <text x="24" y="66" clip-path="url(#c1)"><tspan class="gb">delight@github</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$ </tspan>neofetch --live</text>
+
+  <!-- ascii logo -->
+  <g class="r g" style="animation-delay:1.3s">
+    <text x="24" y="104">       ##           ##    ##</text>
+    <text x="24" y="124">     ##            ##       ##</text>
+    <text x="24" y="144">   ##             ##          ##</text>
+    <text x="24" y="164"> ##              ##             ##</text>
+    <text x="24" y="184">   ##           ##            ##</text>
+    <text x="24" y="204">     ##        ##           ##</text>
+    <text x="24" y="224">       ##     ##          ##</text>
+    <text x="24" y="264" class="d">  [ full-stack // web // apps ]</text>
+  </g>
+
+  <!-- info -->
+  <g class="r" style="animation-delay:1.5s">
+    <text x="360" y="96"><tspan class="gb">delight</tspan><tspan class="d">@</tspan><tspan class="gb">github</tspan></text>
+    <text x="360" y="114" class="d">────────────────────────────────────────</text>
+  </g>
+  <text x="360" y="136" class="r" style="animation-delay:1.6s"><tspan class="k">Name     </tspan>Victor Geoffrey (Delight)</text>
+  <text x="360" y="156" class="r" style="animation-delay:1.7s"><tspan class="k">Role     </tspan>Full-Stack Developer</text>
+  <text x="360" y="176" class="r" style="animation-delay:1.8s"><tspan class="k">Builds   </tspan>Websites · Web Apps · Software</text>
+  <text x="360" y="196" class="r" style="animation-delay:1.9s"><tspan class="k">Langs    </tspan>TypeScript · JavaScript · Python</text>
+  <text x="360" y="216" class="r" style="animation-delay:2.0s"><tspan class="k">Stack    </tspan>React · Next.js · HTML · CSS</text>
+  <text x="360" y="236" class="r" style="animation-delay:2.1s"><tspan class="k">Project  </tspan>FlowDesk — full-stack SaaS</text>
+  <text x="360" y="256" class="r" style="animation-delay:2.2s"><tspan class="k">Status   </tspan><tspan class="y">●</tspan> building &amp; shipping</text>
+  <text x="360" y="276" class="r" style="animation-delay:2.3s"><tspan class="k">Email    </tspan>delightvgn@gmail.com</text>
+  <g class="r" style="animation-delay:2.5s">
+    <rect x="360" y="288" width="22" height="12" fill="#0d1117" stroke="#30363d"/>
+    <rect x="384" y="288" width="22" height="12" fill="#ff7b72"/>
+    <rect x="408" y="288" width="22" height="12" fill="#39d353"/>
+    <rect x="432" y="288" width="22" height="12" fill="#e3b341"/>
+    <rect x="456" y="288" width="22" height="12" fill="#58a6ff"/>
+    <rect x="480" y="288" width="22" height="12" fill="#bc8cff"/>
+    <rect x="504" y="288" width="22" height="12" fill="#39c5cf"/>
+    <rect x="528" y="288" width="22" height="12" fill="#c9d1d9"/>
+  </g>
+
+  <!-- $ cat about.txt -->
+  <text x="24" y="334" clip-path="url(#c2)"><tspan class="gb">delight@github</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$ </tspan>cat about.txt</text>
+  <text x="24" y="356" class="r" style="animation-delay:3.8s"><tspan class="g">› </tspan>Full-stack web, web application &amp; software application developer.</text>
+  <text x="24" y="376" class="r" style="animation-delay:3.95s"><tspan class="g">› </tspan>I build fast, clean products — from the UI all the way to the backend.</text>
+
+  <!-- $ ls projects -->
+  <text x="24" y="402" clip-path="url(#c3)"><tspan class="gb">delight@github</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$ </tspan>ls ./projects</text>
+  <text x="24" y="424" class="r" style="animation-delay:5.1s"><tspan class="b">flowdesk/</tspan>    <tspan class="b">kenyan-ai-tutor/</tspan>    <tspan class="d">more-coming-soon...</tspan></text>
+
+  <!-- final prompt -->
+  <g class="r" style="animation-delay:5.5s">
+    <text x="24" y="458"><tspan class="gb">delight@github</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$ </tspan><tspan class="g cur">█</tspan></text>
+  </g>
+</svg>
